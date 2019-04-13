@@ -1,0 +1,148 @@
+/* HTML Elements */
+
+body {font-family: "Montserrat", sans-serif;}
+p {color: #8f8f8f;}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  padding-bottom: 1rem;}
+footer {
+  background: white;
+  margin: 3%;
+  text-align: center;}
+
+
+/* Navigation bar */
+
+.navbar {padding: 0 0 4.5rem;}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;}
+.nav-item {padding: 0 18px;}
+.nav-link {font-size: 1.2rem; font-weight: lighter;}
+
+
+/* Section 1 (Main screen) */
+
+#title {background: #ff4c68; color: white;}
+
+.meet-dogs {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.5;}
+
+.container-fluid {padding: 3% 15% 16%;}
+
+.phoneimg {
+  width: 100%;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 12%;
+  right: 15%;
+  padding: 0 15%;}
+
+
+.dlbtn {margin: 5% 3% 10% 0;}
+
+/* Section 2 (Features)*/
+
+#features {
+  padding: 7% 15%;
+  background: white;
+  position: relative;}
+
+.pg2h3 {
+  padding: 7px 0;
+  font-weight: 900;
+  font-size: 1.5rem;}
+
+.faicon-pg2 {
+  color: #ef8172;
+  font-size: 5rem;
+  padding: 15px 0;}
+
+.faicon-pg2:hover {
+  transition-duration: 0.3s;
+  color: #ff4c68;}
+
+
+/* Section 3 (Testimonials) */
+
+#testimonials {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+.testimg {border-radius: 100%; width: 15%; margin: 40px;}
+.test-and-press {background: #ef8172;}
+
+.carousel{overflow: hidden; right:0;}
+.carousel-item {padding: 10% 13%;}
+.carbtn {margin-top: 120px;}
+
+#press {text-align: center; margin-top: 50px;}
+.pressLogo {width: 13%; margin: 0 20px 55px;}
+
+.pblsnyc {
+  font-size: 1rem;}
+
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;}
+
+.pricingCol {
+  padding: 3% 2%;}
+
+
+/* Page Responsiveness (Media Queries) */
+
+@media (max-width: 1270px) {
+  .phoneimg {position: static; transform: rotate(0); margin: 20%; right: 0;}
+  }
+
+@media (min-width: 992px) and (max-width: 1269px) {
+  .phoneimg {display: none;}
+  }
+
+@media (max-width: 991px) {
+  .pg1row {text-align: center;}
+  .pg2 {text-align: center;}
+  .pg2card {margin: 1rem auto;}
+  .phoneimg {right: 0; margin: 0;}
+  }
+
+/* Section 4 (Call to Action) */
+
+.ctah3 {
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;}
+
+#cta {
+  text-align: center;
+  background: #ff4c68;
+  font-size: 3rem;
+  padding-top: 12%;
+  padding-bottom: 2%;}
+
+.dlbtnlow {
+  margin-top: 2%;}
+
+
+/* Footer */
+
+.footerIcon {
+  padding: 0 1.5rem 2rem;
+  font-size: 1.65rem;}
+
+.footerPara {
+  padding-top: 0.5rem;
+  font-size: 1rem;}
